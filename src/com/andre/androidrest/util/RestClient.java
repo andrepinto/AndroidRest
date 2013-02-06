@@ -56,7 +56,7 @@ public class RestClient extends IntentService {
 
 	@Override
 	protected void onHandleIntent(Intent intent) {
-  Log.v("app", "entrei");
+
 		action = intent.getData();
 		Bundle extras = intent.getExtras();
 
