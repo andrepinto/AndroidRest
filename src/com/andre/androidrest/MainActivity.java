@@ -47,7 +47,7 @@ public class MainActivity extends Activity implements RestClientResult.Receiver 
 	
 	public void callService(){
 		Intent intent = new Intent(this, RestClient.class);
-		intent.setData(Uri.parse("http://94.46.217.61:8080/AdminBatchProcessServer/api/classifications/CH002/I/BH/1"));
+		intent.setData(Uri.parse("http://api.justin.tv/api/stream/list.json"));
 
 		Gson json = new Gson();
 		Bundle params = new Bundle();
